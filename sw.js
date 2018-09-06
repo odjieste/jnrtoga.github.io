@@ -1,4 +1,4 @@
-var cacheName = 'gilliansibthorpe:0001';
+var cacheName = 'jnrtoga:0001';
 var cacheFiles = [
   '/',
   '/img/photo-me.jpg',
