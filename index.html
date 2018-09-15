@@ -11,7 +11,7 @@
   <style>
 
     :root {
-      --spacing: 10px;
+      --spacing: 20px;
     }
 
     @media screen and (min-width: 45em) {
@@ -22,7 +22,7 @@
 
     @media screen and (min-width: 64em) {
       :root {
-        --spacing: 30px;
+        --spacing: 15px;
       }
     }
 
@@ -43,7 +43,7 @@
     h1, h2,
     p,
     .photo-profile {
-      margin-bottom: 10px;
+      margin-bottom: 5px;
       margin-bottom: var(--spacing);
     }
 
@@ -143,18 +143,27 @@
 
   <h1>Jenri Togalian</h1>
 
-  <h2>Melora Digital Solusi, IT&nbsp;Advisor</h2>
-
+  <svg viewBox="0 100 1600 400">
+    <symbol id="s-text">
+      <text-anchor="middle" x="50%" y="100%"> melora</text>
+    </symbol>
+    <g class = "g-ants">
+      <use xlink:href="#s-text" class="text"></use>
+      <use xlink:href="#s-text" class="text"></use>
+      <use xlink:href="#s-text" class="text"></use>
+      <use xlink:href="#s-text" class="text"></use>
+      <use xlink:href="#s-text" class="text"></use>
+    </g>
+  </svg>   
+      
   <p class="intro-text">Hi there, I’m Jenri. Independent Consultant at Melora Digital Solusi.</p>
 
   <ul class="social-links">
 
     <li>
       <a href="mailto:jnrtoga@gmail.com">Email</a>
-
-    <li>
       <a href="https://github.com/odjieste">GitHub</a>
-
+    </li>
   </ul>
 
 <script>
